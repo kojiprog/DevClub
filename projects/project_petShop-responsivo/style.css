@@ -1,0 +1,158 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    margin: 44px 0 144px 76px;
+}
+
+.menu a {
+    color: #989D9C;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 23px;
+}
+
+.menu a:hover {
+    opacity: 0.5;
+}
+
+.menu a:active {
+    opacity: 0.8;
+}
+
+.menu button {
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    border: transparent;
+    background: #665AE1;
+    color: #FFF;
+    font-weight: 600;
+
+}
+
+.menu button:hover {
+    opacity: 0.6;
+}
+
+.menu button:active {
+    opacity: 0.8;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+.content h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.content h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+.content p {
+    width: 515px;
+    height: 87px;
+    color: #848484;
+    font-weight: 400;
+    margin: 32px 0 65px 0;
+}
+
+.content button {
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    border: transparent;
+    background: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+.content button:hover {
+    opacity: 0.6;
+}
+
+.content button:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        text-align: center;
+    }
+
+    .content button {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    body {
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    img {
+        display: block;
+        margin: 10% auto 0 auto;
+        width: 90%;
+    }
+
+    .content {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .content h1{
+        margin-top: 0;
+        font-size: 2.5rem;
+        
+        
+    }
+
+    .content h2 {
+        margin: 7px auto 50px auto;
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        display: none;
+    }
+
+    .content button {
+        margin-bottom: 133px;
+    }
+}
